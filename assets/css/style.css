@@ -1,0 +1,465 @@
+
+Body {
+  background-color:#eeeeee;
+  margin:0px;
+  
+}
+h1 {
+    color:#4aaaa5;
+    font-family: 'Georgia', "Times, Times New Roman", serif;
+    background-color:#ffffff;
+    padding-left:20px;
+}
+#Keith {
+    float: left;
+    height:200px;
+    width:225px;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+header{
+    background-color:#ffffff;
+    width:100%;
+    border-color: #cccccc;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+table{
+    padding-left: 250px;
+   
+}
+th{
+    background-color: #4aaaa5;
+    font-size:40px;
+    color:white;
+    padding-left:20px;
+    padding-right:20px;
+    border:0px;
+}
+td{
+  background-color:white;
+  font-size:20px;
+  color:#a7a7b6;
+  width:110px;
+}
+hr{
+   padding-bottom:0px;
+   padding-left:0px;
+   margin-top:40px;
+   margin-bottom:0px;
+   margin-left:auto;
+   margin-right: 55px;
+   float: auto;
+  
+
+}
+
+content {
+    margin: 250px;
+    margin-top:50px;
+    margin-bottom: 100px;
+    background-color:#ffffff;
+    width:960px;
+    padding:#ececec,100px;
+    background-size: 960px;
+    background-repeat: no-repeat;
+    border-color: #dddddd;
+    float:left;
+    color: #777777;
+}
+p {
+   float: left;
+   overflow-wrap:break-word;
+   padding-left: 20px;
+   width:650px;
+}
+p1 {
+  float: left;
+  overflow-wrap:break-word;
+  width: 100%;
+  line-height: 20px;
+}
+p2 {
+  float: left;
+  overflow-wrap:break-word;
+  width: 680;
+  padding-left: 20px;
+  Padding-right:20px;
+  padding-bottom: 20px;
+}
+form {
+  float: left;
+  width:100%;
+  padding-bottom: 30px;
+}
+label {
+  float:left;
+  padding-left:20px;
+  padding-top: 20px;
+}
+.input {
+  float:left;
+  text-align: start;
+  padding:20px;
+  border:double,black;
+  border-width:2px;
+}
+
+#name {
+  float: left;
+  width:90%;
+  padding: 5px;
+  padding-left: 20px;
+  margin-left: 20px;
+
+}
+#email {
+  float: left;
+  width:90%;
+  padding: 5px;
+  padding-left: 20px;
+  margin-left: 20px;
+ 
+}
+
+#message{
+  float:left;
+  word-wrap: break-word;
+  width:91%;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+#submit {
+  float: left;
+  padding: 5px;
+  padding-left: 10px;
+  Padding-right: 10px;
+  margin:20px;
+  background-color: #4aaaa5;
+  color:white;
+
+}
+a {
+  color:#a7a7b6;
+  text-decoration: none;
+}
+
+#Img1 {
+  float:left;
+  padding:30px;
+  margin: 85px;
+}
+#Img2 {
+  float:left;
+  padding:30px;
+  margin: 85px;
+}
+#Img3 {
+  float:left;
+  padding:30px;
+  margin: 85px;
+}
+#Img4 {
+  float:left;
+  padding:30px;
+  margin: 85px;
+}
+#Img5 {
+ float: left; 
+ padding:30px;
+ padding-left: 270px;
+ margin: 85px;
+}
+footer {
+  background-color:#666666;
+  float: left;
+  width:100%;
+  padding-top:40px;
+  padding-bottom:5px;
+  border: 10px;
+  border-color: #4aaaa5;
+  border-width: 20px;
+  margin-bottom: 0px;
+  margin-top:0px;
+  text-align: center;
+  color:#dddddd;
+  line-height: 20px;
+}
+
+.container1 {
+    position: relative;
+}
+
+
+.text-block1 {
+    color: red;
+    line-height: 10px;
+    position: absolute;
+    top: 100px;
+    left: 195px;
+    background-color: white;
+    opacity: 0.75;
+}
+.container2 {
+    position: relative;
+}
+
+
+.text-block2 {
+    color: red;
+    line-height: 10px;
+    position: absolute;
+    top: 100px;
+    left: 665px;
+    background-color: white;
+    opacity: 0.75;
+}
+.container3 {
+    position: relative;
+}
+
+
+.text-block3 {
+    color: red;
+    line-height: 10px;
+    position: absolute;
+    top: 600px;
+    left: 135px;
+    background-color: white;
+    opacity: 0.75;
+}
+.container4 {
+    position: relative;
+}
+
+
+.text-block4 {
+    color: red;
+    line-height: 10px;
+    position: absolute;
+    top: 600px;
+    left: 635px;
+    background-color: white;
+    opacity: 0.75;
+}
+ @media screen and (max-width: 980px){
+
+table{
+  padding-left:20px;
+  width:100%;
+}
+hr{
+  width:100%;
+}
+Body {
+  width:100%;
+}
+content {
+  width:600px;
+  padding-left:20px;
+  Margin:50px;
+}
+p,p1,p2 {
+  width:580px;
+}
+#Keith {
+    height:150px;
+    width:175px;
+}
+#Img1,#Img2,#Img3,#Img4 {
+  float:left;
+  padding:15px;
+  margin: 40px;
+  width:150px;
+  height:175px ;
+}
+form {
+  float: left;
+  width:90%;
+  padding-bottom: 30px;
+}
+.text-block1 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    background-color: white;
+    opacity: 0.75;
+ }
+
+.text-block2 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 50px;
+    left: 332px;
+    background-color: white;
+    opacity: 0.75;
+}
+
+.text-block3 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 475px;
+    left: 25px;
+    background-color: white;
+    opacity: 0.75;
+}
+
+.text-block4 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 475px;
+    left: 305px;
+    background-color: white;
+    opacity: 0.75;
+}
+ }
+ @media screen and (max-width: 768px){
+table{
+  padding-left:15px;
+  width:100%;
+}
+hr{
+  width:100%;
+}
+Body {
+  width:100%;
+}
+content {
+  width:500px;
+  padding-left:10px;
+  Margin:10px;
+}
+p,p1,p2 {
+  width:360px;
+}
+#Keith {
+    height:100px;
+    width:125px;
+}
+#Img1,#Img2,#Img3,#Img4 {
+  float:left;
+  padding:10px;
+  margin: 20px;
+  Width:50%
+}
+form {
+  float: left;
+  width:90%;
+  padding-bottom: 30px;
+}
+.text-block1 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: white;
+    opacity: 0.75;
+ }
+ .text-block2 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    background-color: white;
+    opacity: 0.75;
+}
+
+.text-block3 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    background-color: white;
+    opacity: 0.75;
+}
+
+.text-block4 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 735px;
+    left: 70px;
+    background-color: white;
+    opacity: 0.75;
+}
+ }
+@media screen and (max-width: 640px){
+table{
+  padding-left:0px;
+  width:100%;
+}
+hr{
+  width:100%;
+}
+Body {
+  width:100%;
+}
+content {
+  width:400px;
+  padding-left:0px;
+  Margin:0px;
+}
+p,p1,p2 {
+  width:360px;
+}
+#Keith {
+    height:100px;
+    width:125px;
+}
+#Img1,#Img2,#Img3,#Img4 {
+  float:left;
+  padding:0px;
+  margin: 10px;
+  Width:50%
+}
+form {
+  float: left;
+  width:90%;
+  padding-bottom: 30px;
+}
+.text-block1 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    background-color: white;
+    opacity: 0.75;
+ }
+  .text-block2 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    background-color: white;
+    opacity: 0.75;
+}
+
+.text-block3 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 400px;
+    left: 5px;
+    background-color: white;
+    opacity: 0.75;
+}
+
+.text-block4 {
+    color: red;
+    line-height: 5px;
+    position: absolute;
+    top: 590px;
+    left: 25px;
+    background-color: white;
+    opacity: 0.75;
+}
+}
