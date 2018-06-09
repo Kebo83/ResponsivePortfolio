@@ -162,13 +162,14 @@ a {
   float:left;
   padding:30px;
   margin: 85px;
+  top:85px;
 }
-#Img5 {
+/* #Img5 {
  float: left; 
  padding:30px;
  padding-left: 270px;
  margin: 85px;
-}
+} */
 footer {
   background-color:#666666;
   float: left;
@@ -215,6 +216,10 @@ footer {
 }
 .container3 {
     position: relative;
+    width:960px;
+    height: 0px;
+    /* top: 115px;
+    left:150px;  */
 }
 
 
@@ -311,7 +316,7 @@ form {
     color: red;
     line-height: 5px;
     position: absolute;
-    top: 475px;
+    top: 175px;
     left: 305px;
     background-color: white;
     opacity: 0.75;
