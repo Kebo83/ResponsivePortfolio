@@ -86,11 +86,13 @@ p2 {
   Padding-right:20px;
   padding-bottom: 20px;
 }
-form {
+div1 {
   float: left;
   width:100%;
   padding-bottom: 30px;
+  text-align: center;
 }
+
 label {
   float:left;
   padding-left:20px;
@@ -164,12 +166,7 @@ a {
   margin: 85px;
   
 }
-/* #Img5 {
- float: left; 
- padding:30px;
- padding-left: 270px;
- margin: 85px;
-} */
+
 footer {
   background-color:#666666;
   float: left;
