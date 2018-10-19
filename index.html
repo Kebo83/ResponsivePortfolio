@@ -1,69 +1,518 @@
-<!Doctype html>
-<html>
-    <head>
+<!DOCTYPE html>
+<html >
+ lang="en"> 
 
-        <title>Keith's Student Bio</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
+ <head> 
+   <meta charset="utf-8"> 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1"> 
+   The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags 
+   <title>JKJ Portfolio</title> 
+
+   Bootstrap 
+   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+</head> 
+
+<body>
+   <div class="wrapper" id="home">
     <header>
-        <table>
-            <tr><th>Keith Jones </th>
-                <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
-                <td><a href="index.html" >About</a></td>
-                <td><a href="portfolio.html" >Portfolio</a></td>
-                <td><a href= "contact.html">Contact</a></td>
-            </tr>
-        </table> 
+      <div class="banner row" id="banner">
+        <div class="parallax text-center" style="background-image: url(https://cdn-images-1.medium.com/max/1920/1*2nYB8VD7uuA80Nc6FBao9Q.jpeg);">
+          <div class="parallax-pattern-overlay">
+            <div class="container text-center" style="height:600px;padding-top:170px;">
+              <a href="#"><img class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" id="Keith" src="http://images6.fanpop.com/image/user_images/5768000/kebo83-5768074_650_567.jpg"
+                  width="225" height="200" class="img-fluid" alt="Responsive image"></a>
+              <h2 class="intro"><a href="index.html">Johnny Keith Jones</a></h2>
+              <div class="headfoot" style="display: flex; justify-content: center">
+                <div class="container">
+                  <ul>
+                    <li>
+                      <a href="https://www.linkedin.com/in/johnnykeithjones" target="_blank">
+                        <i class="fa fa-linkedin" id="icon1" style="font-size:300%"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/Kebo83" target="_blank">
+                        <i class="fa fa-github" id="icon2" style="font-size:300%"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="assets/resume/Jones Resume.pdf" target="_blank" id="dl">
+                        <i class="fa fa-download" id="icon3" style="font-size:100%" download target="pdf-frame">&nbsp;Resume</i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="container">
+          <div class="navwrapper">
+            <div class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container">
+                <div class="navArea">
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                      <li class="menuItem active"><a href="#home">Home</a></li>
+                      <li class="menuItem"><a href="#aboutMe">About Me</a></li>
+                      <li class="menuItem"><a href="#skills">Skills</a></li>
+                      <li class="menuItem"><a href="#portfolio">Portfolio</a></li>
+                      <li class="menuItem"><a href="#education">Education</a></li>
+                      <li class="menuItem"><a href="#contact">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <content>
-            
-            <h1><B>About Me</B></h1>
-            <hr>
-            <img id= "Keith" img src="http://images6.fanpop.com/image/user_images/5768000/kebo83-5768074_650_567.jpg" width="225" height="200" alt="Keith Jones" style="float:left"></img>
-              <p> My name is Johnny Keith Jones.
-                   I am originally from Boaz, Alabama.
-                   I love watching and playing sports.
-                   My favorites sports are baseball and football.
-                   I am huge Alabama college football fan!! 
-                   ROLL TIDE ROLL!! 
-                   I also cheer for the AZ home team, The Arizona Diamondbacks. 
-                   I enjoy hiking, camping, fishing, playing sorftball, and doing about anything else the outdoors has to offer.
-                   I am a first generation college graduate.
-                   I graduted with a BS in Electronics Engeering Technology. 
-                   I was in the Navy Reserve as an Information System Technologist for 4 years.
-                   I moved to Arizona in 2009 to work as an Engineer with Lockheed Martin.
-                   To help move up with the company I started volunteering to train soldiers on the military equipment I worked on.
-                   I fell in love with teaching and sharing knowlege.
-                   I worked 5 years as Techinical Trainer with a few different companies.
-                   After the last company was bought out, I went to work at State Farm working auto claims and trying to get into the training side of the business.
-                   After a year I realized that getting into in the training department was nearly impossible.
-                   I have since decided that learning to code, would not only be a new challege, but would also get me back into the technology field.</p>
-        <p1>&nbsp;</p1>
-        <p2>   I have a wonderful girlfriend that I have been dating for 5 1/2 years.
-               Her name is Nichole and she just recently graduated as school teacher.
-               I tell her all the time she is smarter than I am, because she finnished with a perfect 4.0 GPA, all while working fulltime.
-               We have two awesome doggies that also like doing anything outside when I'm around and able to be with them.
-               Kodiak and Papi are their names. 
-               Nichole has had Kodiak ever since she was a puppy and bottle fed her until she could eat puppy food.
-               Kodiak is the nicest Chow-Chow you have ever met until you mess with Nichole or myself.
-               Kodiak has just turned 10 years old is starting to get a little grouchy at her old age.
-               We adopted Papi a little over a year ago and he is our 50lb lap doggie
-               He is a little timid and doesn't like to try new things.
-               His favorite place is anywhere he can snuggle up to Nichole or myself.
-               Nichole has done an awesome job teaching them both tricks.
-               They both know how to sit, speak, stay, lay, play dead, and shake.</p2>
+
+
+    <section class="aboutMe" id="aboutMe">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>About Me</h2>
+          <h3>My name is Johnny Keith Jones.
+            I'm a student of life who loves to learn and
+            the enjoys the challenge of solving life's little
+            problems. My first thought when issues arise, is
+            how can I fix it (usually with Technology).
+            My most recent tool in my tool belt is that of my
+            web development (coding) skills, acquired through the
+            vigorous University of Arizona Full Stack Coding
+            Bootcamp. When I am not coding or trying to solve
+            the newest challenge, I love to kick back camping in
+            the woods, fishing on the lake, and playing slow
+            pitch softball with my friends.</h3>
+        </div>
+
+
+    </section> 
+
+
+
+     <section class="skills" id="skills">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>My Skills</h2>
+          <h3></h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row" style="display: flex; justify-content: center; flex-wrap: wrap">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="skills">
+              <h3 class="main text-center">WEB DESIGN AND DEVELOPMENT</h3>
+              <ul style="list-style-type:circle">
+                <li>
+                  <h4>
+                  
+                    HTML</h4>
+                </li>
+                <li>
+                  <h4>
+                   
+                    CSS</h4>
+                </li>
+                <li>
+                  <h4>
+                  
+                    Javascript
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                   
+                    jQuery</h4>
+                </li>
+                <li>
+                  <h4>
+                   
+                    Bootstrap
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                    
+                    AJAX</h4>
+                </li>
+                <li>
+                  <h4>
+                    
+                    Node.js</h4>
+                </li>
+                <h4>
+                  
+                  Express.js</h4>
+                </li>
+
+                <li>
+                  <h4>
+                    
+                    React.js</h4>
+                </li>
+                <li>
+                  <h4>
+                    
+                    Github</h4>
+                </li>
+                <h4>
+                  
+                  Firebase
+                </h4>
+                </li>
+                <li>
+                  <h4>
+                   
+                    MySQL
+                  </h4>
+                </li>
+                <li>
+                  <h4> 
+                    
+                     Sequelize
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                    
+                </li>
+                <li>
+                  <h4>
+                    
+                    Handlebars
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                   
+                     MongoDB
+                  </h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="skills">
+              <h3 class="main text-center">ADDITIONAL SKILLS</h3>
+              <ul style="list-style-type: circle">
+                <li>
+
+                  <h4>Instructional Design </h4>
+                </li>
+                <li>
+                  <h4>Course Facilitation</h4>
+                </li>
+                <li>
+                  <h4>Electronic Theory and Troubleshooting</h4>
+                </li>
+                <li>
+                  <h4>Computer And Systems Networking</h4>
+                </li>
+                <li>
+                  <h4>National Instruments (NI) TestStand</h4>
+                </li>
+                <li>
+                  <h4>Microsoft Office Suite</h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section> 
+
+         <img src="img/mongodb-logo.png" style="width: 20px; height: auto; margin: 0px;" alt="mongodbicon" />
+    <img src="img/Handlebars-logo.png" style="width: 20px; height: auto; margin: 0px;" alt="handlebarsicon" />
+    <img src="img/heroku_logo.png" style="width: 20px; height: auto; margin: 0px;" alt="herokuicon" />
+    <img src="img/sequelized_logo.png" style="width: 20px; height: auto; margin: 0px;" alt="sequelizedicon" />
+    <img src="img/Mysql-dolphin-square.svg.png" style="width: 20px; height: auto; margin: 0px;" alt="mysqlicon" />
+    <img src="img/firebaseicon.png" style="width: 20px; height: auto; margin: 0px;" alt="firebaseicon" />
+    <img src="img/nodejsicon.png" style="width: 20px; height: auto; margin: 0px;" alt="nodeicon" />
+    <img src="img/ajaxIcon.png" style="width: 20px; height: auto; margin: 0px;" alt="ajaxicon" />
+    <img src="img/bootstrapIcon.jpg" style="width: 20px; height: auto; margin: 0px;" alt="bootstrapicon" />
+    <img src="img/jsIcon.jpg" style="width: 20px; height: auto; margin: 0px;" alt="jsicon" />
+    <img src="img/cssicon.png" style="width: 20px; height: auto; margin: 0px;" alt="CSSicon" />
+    <img src="img/html5icon.png" style="width: 20px; height: auto; margin: 0px;" alt="htmlicon" />
  
-         </content> 
+     <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Portfolio</h2>
+          <h3>Listed below are a few of the assignments, projects, and hobby sites I have learned and 
+            entertained myself with while learning the coding concepts presented by the Bootcamp. </h3>
+        </div>
+    
+       <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item full-stack-item mysql-item featured-item">
+        <a href="https://andydun9.github.io/project1/" target="_blank"><img id="Img2" src="assets/img/BrewFinder.jpg"
+            width="250" height="150">
+          <div class="itemLabel">
+            <h3>Brew Finder</h3>
+          </div>
+      </div>
 
-    </body>
 
-    <hr align="center" WIDTH="100%"  color=#4aaaa5 size=5> 
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item full-stack-item mysql-item featured-item group-item">
+    <a href="https://floating-caverns-13520.herokuapp.com/" target="_blank"><img id="Img1" img src="https://www.consumer.ftc.gov/sites/www.consumer.ftc.gov/files/games/off-site/game-0003_friend-finder_680x360.png"
+        width="250" height="150" alt="Img1"></a>
+    <div class="itemLabel">
+      <h3>Friend Finder</h3>
+    </div>
+  </div>
+  
+
+   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item from-end-item">
+    <a href="https://kebo83.github.io/trainScheduler/" target="_blank"><img id="Img4" src="assets/img/Train.jpeg" width="250"
+        height="150" /></a>
+    <div class="itemLabel">
+      <h3>Train Scheduler</h3>
+    </div>
+  </div> 
+ 
+   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item forent-end-item">
+    <a href="https://kebo83.github.io/triviaGame/"target="_blank"><img id="Img3" src="assets/img/Sports.jpg" width="250" height="150" /></a>
+    <div class="itemLabel">
+      <h3>Sports Trivia Game</h3>
+    </div>
+  </div>
+  
+
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item front-end-item">
+    <a href="https://kebo83.github.io/PsychicGame/"target="_blank"><img id="Img4" src="assets/img/psychic-ability.jpg" width="250" height="150" /></a>
+        <div class="itemLabel">
+        <h3>The Psychic Game</h3>
+      </div>
+    </div> 
+
+   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item front-end-item">
+   <a href="https://kebo83.github.io/unit-4-game/"target="_blank"><img id="Img5" src="assets/img/gem.jpg" width="250" height="150" /></a>
+      <div class="itemLabel">
+        <h3>Gem jQuery Game</h3>
+      </div>
+    </div> 
+ 
+
+   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item front-end-item">
+   <a href="https://kebo83.github.io/gifTastic/"target="_blank"><img id="Img6" src="https://media.giphy.com/media/eVMYJK15jxVKM/giphy.gif" width="250" height="150"/></a>
+      <div class="itemLabel">
+        <h3>Giphy Time</h3>
+      </div>
+    </div>
+ = 
+
+   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 featured-item portfolio-item front-end-item group-item">
+   <a href="https://powerful-depths-54507.herokuapp.com/"target="_blank"><img id="Img7" src="assets/img/download.jpeg" width="250" height="150"/></a>
+      <div class="itemLabel">
+        <h3>Keburger (Full CRUD)</h3>
+      </div>
+    </div> 
+
+
+   <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item full-stack-item">
+   <a href="https://kebo83.github.io/ClickyGame/"target="_blank"><img id="Img7" src="assets/img/dbacks.jpeg" width="250" height="150"/></a> <div class="itemLabel">
+        <h3>Baseball Clicky Game (REACT)</h3>
+      </div>
+    </div>  -->
+
+
+   <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item other-item">
+    <a href="https://powerful-depths-54507.herokuapp.com/"target="_blank"><img id="Img7" src="assets/img/download.jpeg" width="250" height="150"/></a><div class="itemLabel">
+        <h3>BAMAzon</h3>
+      </div>
+    </div>
+  </div> 
+  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item other-item">
+    <a href="https://powerful-depths-54507.herokuapp.com/"target="_blank"><img id="Img7" src="assets/img/download.jpeg" width="250" height="150"/></a><div class="itemLabel">
+        <h3>Prject2</h3>
+      </div>
+    </div>
+  </div> 
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 portfolio-item other-item">
+    <a href="https://powerful-depths-54507.herokuapp.com/"target="_blank"><img id="Img7" src="assets/img/download.jpeg" width="250" height="150"/></a><div class="itemLabel">
+        <h3>Prject2</h3>
+      </div>
+    </div>
+  </div>  -->
+
+   </section> 
+
+
+
+ 
+   <section class="education" id="education">
+    <div class="container">
+      <div class="heading">
+        <h2>Education</h2>
+        <h3>It has been said many times that education is the key to success. 
+          Listed below are the institutions of higher learning that I have attended
+          to continue to be successful in meeting goals I continue to set for myself.   </h3>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+        <div class="text-center">
+          <div class="hi-icon-wrap hi-icon-effect">
+            <h4>CERTIFICATE OF COMPLETION, WEB DEVELOMENT</h4>
+            <h5>APR 2018 - OCT 2018</h5>
+            <br />
+            <img src="assets/img/UofA.png">
+            <p>UNIVERISTY OF ARIZONA, </p>
+            <p>Gilbert, AZ</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+        <div class="text-center">
+          <div class="hi-icon-wrap hi-icon-effect">
+            <h4>BACHELOR OF SCIENCE IN ELECTRONIC ENGINEERING TECHNOLOGY</h4>
+            <h5>AUG 2004 - APR 2007</h5>
+            <img src="assets/img/JSU.jpeg">
+            <p>JACKSONVILLE STATE UNIVERSITY, Jacksonville, AL</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
+        <div class="text-center">
+          <div class="hi-icon-wrap hi-icon-effect">
+            <h4>ASSOCIATE OF SCIENCE IN ELECTRONIC ENGINEERING TECHNOLOGY</h4>
+            <h5>AUG 2001 - MAY 2004</h5>
+            <img id="sscc" src="assets/img/SSCC.png" height="65%" width="65%">
+            <p>SNEAD STATE COMMUNITY COLLEGE, Boaz, AL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="heading">
+        <h2>Contact</h2>
+        <h3>Please feel free to use any of the contact methods below.
+          <br> I look forward to hearing from you!</h3>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="contact-info">
+            <h4>My Contact Info</h4>
+            <ul>
+              <li>
+                <i class="fa fa-home fa-2x"></i> 161 South Tiago Dr.</li>
+              <li>&emsp;&emsp; Gilbert, AZ 85233
+              <li>
+                <i class="fa fa-phone fa-2x"></i> 1 (256) 2930046</li>
+              <li>
+                <i class="fa fa-envelope fa-2x"></i> kebo_83@hotmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12" style="display: flex; flex-direction: column; justify-content: center">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="https://formspree.io/kebo_83@hotmail.com" method="post" role="form" class="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                data-msg="Please enter at least 4 characters" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your Email" data-rule="email"
+                data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
+                data-msg="Please enter at least 8 characters of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please don't forget to leave a message."
+                placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" value="send" class="contact submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <section class="footer" id="footer">
+    <p class="text-center">
+      <a href="#home" class="gototop">
+        <i class="fa fa-angle-double-up fa-2x"></i>
+      </a>
+    </p>
+    <div class="container">
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/johnnykeithjones" style="font-size:300%" target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Kebo83" target="_blank" style="font-size:300%">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+    
+        <a href="assets/resume/Jones Resume.pdf" id="icon4" target="_blank" style="font-size:100%">
+          <i class="fa fa-download" download target="pdf-frame">&nbsp;Resume</i>
+        </a>
        
-    <footer>
-                Copyright ©
-      
-    </footer>
+      </ul>
+    </div>
+  </section> 
+
+   </div> 
+   <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/modernizr.js"></script>
+  
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/menustick.js"></script>
+  <script src="assets/js/parallax.js"></script>
+  <script src="assets/js/easing.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+  <script src="assets/js/masonry.js"></script>
+  <script src="assets/js/imgloaded.js"></script>
+  <script src="assets/js/classie.js"></script>
+  <script src="assets/js/colorfinder.js"></script>
+  <script src="assets/js/gridscroll.js"></script>
+  <script src="assets/js/contact.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+
+  <script src="assets/contactform/contactform.js"></script>
+
+
+</body>
 
 </html>
